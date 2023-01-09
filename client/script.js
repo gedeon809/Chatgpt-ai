@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
   // loading messageDiv.innerHTML = "..."
   loader(messageDiv);
   // fetch data from the server
-  const response = await fetch('https://chatgpt-284e.onrender.com', {
+  const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
